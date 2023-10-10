@@ -1,0 +1,47 @@
+GIT is version control system, most widely used one is git
+to keep track of changes you made in local version system, we try keeping new names,
+it doesnt identify languages, it just look for changes
+
+GIT is Distributed V C System
+
+GIT is a language to make changes in GITHUB
+GITHUB is a server
+
+CENTRALISED V C : main folder on a location , 
+                  where all the files are there, 
+                  which you want you download and make changes and push back, 
+                  everyone has one working copy
+
+
+DISTRIBUTED V C :   contains multiple repositires, 
+                    here whole folder is pulled out, 
+                    all repositries as one copy, 
+                    each user has own repository and working copy
+
+
+keeps track of changes by timestamp -> local version system
+
+CVC -> keeps the track of time changes, checkins Over Time
+
+DVC -> takes snapshot of original version..only when we commit changes, then it takes the snapshot and compares with original...if no changes then , no snapshot...keeps track of all snapshots, so when you want previous one you can take it by going back 
+
+
+Git three states :
+1. modified -> changed the file but not commited(commit at local repository)
+2. stages -> mared a modified file
+3. Committed -> data is safely stored in your local database
+
+
+
+git init -> initialising the repository ot be git repository
+git status -> to chek status
+git add . -> stage all modifications
+git add 'file_name' -> stage particular file
+
+//commit -> to make permanent on local repository
+
+git commit -m "first commit" .... -m : message " " : whatever message you type
+git config user.name "user_name"  
+git config user.email "user_email"
+git push -u origin master ... to authenticate ... -u : upstream from local to github
+master -> name of main branch
